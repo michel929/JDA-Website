@@ -3,6 +3,7 @@ copyright: 'Copyright 2015 Austin Keener, Michael Ritter, Florian Spieß, and <a
 
 theme:
   custom_dir: overrides
+  language: en
   favicon: assets/images/logo-round.png
   features:
     - navigation.instant
@@ -30,6 +31,15 @@ theme:
 repo_name: JDA
 repo_url: https://github.com/DV8FromTheWorld/JDA
 edit_uri: ../JDA-Website/edit/master/docs/
+
+extra:
+  alternate:
+    - name: English
+      link: /en/
+      lang: en
+    - name: German
+      link: /de/
+      lang: de
 
 extra_css:
 - 'assets/stylesheets/colors.css'
@@ -87,4 +97,4 @@ nav:
     - Contributing: contributing/contributing.md
     - Structure Guide: contributing/structure-guide.md
     - Repository Structure: contributing/repository-structure.md
-  - Javadocs: https://ci.dv8tion.net/job/JDA5/javadoc/
+    - Javadocs: https://ci.dv8tion.net/job/JDA5/javadoc/
