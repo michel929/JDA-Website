@@ -60,44 +60,45 @@ Wenn du Vorschläge, Fragen oder Feedback zu diesem Wiki hast, dann besuch bitte
     }
     ```
 
-    **More Examples**:
-    We provide a small set of Examples in the [Example Directory](https://github.com/DV8FromTheWorld/JDA/tree/master/src/examples/java).
+    **Weitere Beispiele**:
+    Wir stellen eine kleine Auswahl an Beispielen zur Verfügung: [Beispiel Directory](https://github.com/DV8FromTheWorld/JDA/tree/master/src/examples/java).
 
 ## Download
-Hier kannst du das letzte Update herunterladen:
+Hier kannst du das neuste Update herunterladen:
 [Promoted Downloads](https://github.com/DV8FromTheWorld/JDA/releases)
 
-If you want the most up-to-date builds, you can get them here: [Latest Build Downloads](https://ci.dv8tion.net/job/JDA5/)
+Wenn du die aktuellsten Builds möchtest, kannst du sie hier herunterladen: [Latest Build Downloads](https://ci.dv8tion.net/job/JDA5/)
 
 ## Dokumente
 Javadokumente sind in beiden Formaten verfügbar, in jar Format und web Format.<br>
 Das jar Format steht dir hier zur Verfügung: [Promoted Downloads](https://github.com/DV8FromTheWorld/JDA/releases). Oder auf einer der folegenden Seiten: [legacy v4 Downloads](https://ci.dv8tion.net/job/JDA/) oder [v5 Downloads](https://ci.dv8tion.net/job/JDA5/).<br>
 <br>
-The web format allows for viewing of the [Latest Docs](https://ci.dv8tion.net/job/JDA5/javadoc/) or [legacy Docs](https://ci.dv8tion.net/job/JDA/javadoc/) 
-and also viewing of each individual build's javadoc. To view the javadoc for a specific build, you will need to go to that build's page
-on [the build server](https://ci.dv8tion.net/job/JDA5/) and download the javadoc jar for the specific build.<br>
-A shortcut would be: `https://ci.dv8tion.net/job/JDA5/BUILD_NUMBER_GOES_HERE`, you just need to replace the 
-"BUILD_NUMBER_GOES_HERE" with the build you want.<br>
-Once you have the jar extract the files with the zip tool of your preference (winrar or 7zip, etc.) and open the `index.html` file with your internet browser.
+Die Webseite ermöglicht die Anzeige der [neuesten](https://ci.dv8tion.net/job/JDA5/javadoc/) oder [älteren Dokumente](https://ci.dv8tion.net/job/JDA/javadoc/)  sowie die Javadocs jedes einzelnen Builds. 
+Um die Javadocs für ein bestimmtes Build anzuzeigen, musst du die Seite dieses Builds auf dem [Build-Server](https://ci.dv8tion.net/job/JDA5/) aufrufen und 
+die Javadoc-JAR für den jeweiligen Build herunterladen.<br>
+
+Ein Beispiel wäre: `https://ci.dv8tion.net/job/JDA5/BUILD_NUMBER_GOES_HERE`, du musst nur „BUILD_NUMBER_GOES_HERE“ durch den gewünschten Build ersetzen.<br>
+Sobald du die jar Datei mit dem Zip-Tool deiner Wahl (winrar oder 7zip usw.) 
+extrahiert hast, öffne die `index.html` Datei mit Ihrem Internetbrowser.
 
 ## Getting Help
-If you need help, or just want to talk with the JDA or other Devs, you can join the [Official JDA Discord Guild](https://discord.gg/0hMr4ce0tIl3SLv5).
+Wenn du Hilfe benötigst oder einfach nur mit den JDA Entwicklern oder anderen Entwicklern sprechen möchtest, dann kannst du dem [Official JDA Discord Server](https://discord.gg/0hMr4ce0tIl3SLv5) beitreten.
 
-Alternatively you can also join the [Unofficial Discord API Guild](https://discord.gg/discord-api).
-Once you joined, you can find JDA-specific help in the `#java_jda` channel.
-The JDA specific server will often have faster responses than the `#java_jda` channel in the Discord API server.
+Alternativ kannst du auch der Inofficial  [Unofficial Discord API Guild](https://discord.gg/discord-api). beitreten. 
+Sobald du beigetreten bist, findest du JDA-spezifische Hilfe im Kanal  `#java_jda`. 
+Der JDA-spezifische Server reagiert oft schneller als der `#java_jda` Kanal auf dem Discord-API-Server.
 
-For guides and setup help you can also take a look at this wiki.
-<br>Especially interesting are the [Getting Started](../using-jda/getting-started.md) Pages.
+Anleitungen und Einrichtungshilfe findest du auch in diesem Wiki.
+Besonders interessant sind die [Getting Started](../using-jda/getting-started.md) Seiten.
 
 ## Contributing to JDA
 Wenn du zu JDA beitragen möchtest, stell sicher, dass dein Branch auf unserem **Master-Branch** (oder einem Feature-Branch)
-basiert und dein PR in **demselben** Branch erstellt. **Wir lehnen jegliche PRs zwischen Zweigen oder in Release-Zweigs ab!**
+basiert und dein PR in **demselben** Branch erstellt wird. **Wir lehnen jegliche PRs zwischen Branches oder in Release-Branches ab!**
 
-It is also highly recommended to get in touch with the Devs before opening Pull Requests (either through an issue or the Discord servers mentioned above).<br>
-It is very possible that your change might already be in development or you missed something.
-
-More information can be found at the wiki page [Contributing](../contributing/contributing.md)
+Es wird außerdem dringend empfohlen, mit den Entwicklern Kontakt aufzunehmen, bevor Pull Requests geöffnet werden (entweder über ein Issue oder über den oben genannten Discord-Server).<br>
+Es ist durchaus möglich, dass sich deine Änderung bereits in der Entwicklung befindet oder dass du etwas verpasst hast.
+ 
+Weitere Infos kannst du auf unserer Wiki Seite unter [Contributing](../contributing/contributing.md) finden.
 
 ## Dependencies
 Das Projekt benötigt **Java 8**.<br>
